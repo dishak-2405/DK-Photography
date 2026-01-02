@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DK PHOTO</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+    header{
+      background:#000;
+      color:#fff;
+      padding:20px;
+      text-align:center;
+    }
+    nav{
+      background:#222;
+      text-align:center;
+      padding:10px;
+    }
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+    nav a:hover{
+      color:#ff9800;
+    }
+    .hero{
+      background:#000;
+      color:#fff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    .hero marquee{
+      margin-top:10px;
+      font-size:18px;
+    }
+    section{
+      padding:40px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+    h2{
+      text-align:center;
+      margin-bottom:20px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+    .gallery img{
+      width:100%;
+      border-radius:8px;
+    }
+    .contact{
+      background:#fff;
+      text-align:center;
+      padding:30px;
+    }
+    footer{
+      background:#000;
+      color:#fff;
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>DK PHOTO</h1>
+  <p>Professional Photography Services</p>
+</header><nav>
+  <a href="#about">About Us</a>
+  <a href="#services">Services</a>
+  <a href="#photos">Photos</a>
+  <a href="#contact">Contact</a>
+</nav><div class="hero">
+  <h2>Capturing Your Special Moments</h2>
+  <marquee>Studio open from Monday – Saturday | 9:00 AM – 10:00 PM</marquee>
+</div><section id="about">
+  <h2>About Us</h2>
+  <p>
+    We specialize in wedding photography, birthday photography, corporate, family and senior portraits.
+    Our goal is to capture real people, real emotions and real stories that last forever.
+  </p>
+</section><section id="services">
+  <h2>Our Services</h2>
+  <p><b>Wedding Photography</b> – Making your big day unforgettable.</p>
+  <p><b>Birthday Photography</b> – Cherish every celebration.</p>
+  <p><b>Corporate Photography</b> – Professional branding images.</p>
+  <p><b>Family Photography</b> – Preserve memories for generations.</p>
+</section><section id="photos">
+  <h2>Our Photography Skills</h2>
+  <div class="gallery">
+    <img src="wedding.jpg" alt="Wedding">
+    <img src="birthday.jpg" alt="Birthday">
+    <img src="corporate.jpg" alt="Corporate">
+    <img src="family.jpg" alt="Family">
+  </div>
+</section><section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p><b>DK PHOTO</b></p>
+  <p>Opposite to GK Interiors, Bejai, Mangalore – 575232</p>
+  <p>📞 +91 5628163808 | +91 9593660156</p>
+</section><footer>
+  <p>&copy; 2025 DK PHOTO | All Rights Reserved</p>
+</footer></body>
+</html>
